@@ -1,0 +1,33 @@
+* {
+  /* border: 1px solid violet; */
+}
+
+#contact-container {
+  margin: 10rem auto;
+  display: flex;
+  gap: 3em;
+}
+
+#contact-container img {
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+}
+
+#contact-copy {
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  background-color: rgb(255, 251, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2em;
+  width: 24em;
+  padding: 0 3em;
+}
+
+#social-container {
+  display: flex;
+  justify-content: space-evenly;
+}
